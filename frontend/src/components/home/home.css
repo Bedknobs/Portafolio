@@ -1,0 +1,56 @@
+nav,
+.navSection {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav,
+.navSection a {
+  color: #d3c681;
+  font-weight: 600;
+}
+
+nav {
+  z-index: 5;
+  position: absolute;
+  width: 100%;
+  margin: 2rem auto;
+}
+
+nav p {
+  font-size: 1.5rem;
+  font-family: var(--title-font);
+  margin-left: 0.5rem;
+}
+
+.navSection a {
+  margin: auto 1rem;
+}
+
+.image-container {
+  position: relative;
+}
+
+.coverImage img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: relative;
+  z-index: 0;
+}
+
+.coverImage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  z-index: 1;
+}
+
+nav {
+  position: absolute;
+  z-index: 2;
+}

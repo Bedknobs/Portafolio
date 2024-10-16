@@ -1,12 +1,12 @@
-import './App.css'
+import "./App.css";
+import Home from "./components/home/Home";
 
 function App() {
-
   return (
     <>
-      <h1>Holi</h1>
+      <Home />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
