@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&display=swap");
+
+:root {
+  font-family: "Lato", Arial, sans-serif;
+  --title-font: "Lexend", Arial;
+
+  color: #36333d;
+  --dark-subtitle-color: #858389;
+  --light-title-color: #fcfbfe;
+  --light-subtitle-color: #eae6f9;
+  background-color: #fefdfe;
+  --background-violet: #ada7ce;
+
+  --color-lila: #dbcdef;
+  --color-blue: #bfbbed;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
