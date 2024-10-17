@@ -6,7 +6,7 @@ nav,
 
 nav,
 .navSection a {
-  color: #d3c681;
+  color: var(--light-link-color);
   font-weight: 600;
 }
 
@@ -24,7 +24,7 @@ nav p {
 }
 
 .navSection a {
-  margin: auto 1rem;
+  margin: auto 0.8rem;
 }
 
 .image-container {
@@ -59,9 +59,18 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 5rem 1rem;
+  text-align: center;
 }
 
 .welcomeTitle {
-  font-size: 4.15rem;
+  font-size: 4rem;
   font-family: var(--title-font);
+  font-weight: 500;
+}
+
+.welcomeSubtitle {
+  color: var(--dark-subtitle-color);
+  width: 60%;
+  margin-top: 0.5rem;
 }

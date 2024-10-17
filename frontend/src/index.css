@@ -7,13 +7,7 @@
 
   color: #36333d;
   --dark-subtitle-color: #858389;
-  --light-title-color: #fcfbfe;
-  --light-subtitle-color: #eae6f9;
-  background-color: #fefdfe;
-  --background-violet: #ada7ce;
-
-  --color-lila: #dbcdef;
-  --color-blue: #bfbbed;
+  --light-link-color: #d3c681;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
