@@ -1,4 +1,10 @@
 .titleSection {
-    font-size: 3.2rem;
-    font-weight: 700;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.subtitleSection {
+  color: var(--dark-subtitle-color);
+  width: 90%;
+  margin-top: 1rem;
 }

@@ -15,9 +15,9 @@ export default function Home() {
         <section className="navSection">
           <a href="#home">INICIO</a>
           <a href="#about">SOBRE MI</a>
-          <a href="">PROYECTOS</a>
-          <a href="">PEQUEÑOS DESAFIOS</a>
-          <a href="">CONTACTO</a>
+          <a href="#projects">PROYECTOS</a>
+          <a href="#challenges">PEQUEÑOS DESAFIOS</a>
+          <a href="#contact">CONTACTO</a>
         </section>
       </nav>
       <div className="coverImage">

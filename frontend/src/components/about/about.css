@@ -5,6 +5,59 @@
 }
 
 #about {
-    text-align: center;
-    margin: 5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 5rem 1rem;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  width: 80%;
+}
+
+.skillsSection {
+  border: 2px solid var(--color-green);
+  padding: 0.5rem;
+  min-height: 15rem;
+  margin: auto 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.skillsSection img {
+  width: 3rem;
+  margin: 0.3rem;
+}
+
+.skillItem {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: var(--color-green);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.skillItem:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
 }
