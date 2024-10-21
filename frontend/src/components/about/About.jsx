@@ -1,4 +1,4 @@
-import Skills from "../skills/Skills";
+import Skills from "./Skills";
 import "./about.css";
 
 export default function About() {

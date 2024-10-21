@@ -16,6 +16,7 @@
   right: 2rem;
   opacity: 0;
   transform: translateY(20px);
+  z-index: 10;
 }
 
 .button:not(.hidden) {
