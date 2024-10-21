@@ -23,7 +23,7 @@ export default function Projects() {
       img: "../../../src/assets/images/ACAF.png",
       alt: "ACAF",
       description:
-        " ACAF es una página web creada para una asociación del mismo nombre, desarrollada en colaboración con un equipo de seis personas. La página se divide en dos secciones: una dirigida al público general, donde se explica la misión de la asociación y quiénes la dirigen, y otra enfocada a la organización, donde los administradores pueden añadir, borrar o editar socios. Los datos de los socios se almacenan en una base de datos PostgreSQL, asegurando un manejo seguro y eficiente de la información.",
+        "ACAF es una página web creada para una asociación del mismo nombre, desarrollada en colaboración con un equipo de seis personas. La página se divide en dos secciones: una dirigida al público general, donde se explica la misión de la asociación y quiénes la dirigen, y otra enfocada a la organización, donde los administradores pueden añadir, borrar o editar socios. Los datos de los socios se almacenan en una base de datos PostgreSQL, asegurando un manejo seguro y eficiente de la información.",
       peopleInvolved: "Proyecto realizado en equipo (6 personas).",
       repoLink: "https://github.com/Bedknobs/ACAF",
     },
