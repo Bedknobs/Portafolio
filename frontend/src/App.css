@@ -8,3 +8,30 @@
   width: 90%;
   margin-top: 1rem;
 }
+
+@media (max-width: 1024px) {
+  .navSection a {
+    font-size: 0.9rem !important;
+    margin: auto 0.5rem !important;
+  }
+
+  .welcomeTitle {
+    font-size: 3rem !important; 
+  }
+
+  .welcomeSubtitle {
+    width: 80% !important;
+  }
+
+  .titleSection {
+    font-size: 2.8rem;
+  }
+
+  .aboutImage {
+    height: 50vh !important;
+  }
+
+  .skills {
+    width: 95% !important;
+  }
+}
