@@ -1,7 +1,15 @@
 import BackToTop from "../backToTop/BackToTop";
 import "./home.css";
+import { useState } from "react";
+import HamburguerMenu from "../hamburguerMenu/HamburguerMenu";
 
 export default function Home() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <div id="home">
       <nav>
@@ -12,13 +20,26 @@ export default function Home() {
           />
           <p>NOELIA REY</p>
         </section>
-        <section className="navSection">
-          <a href="#home">INICIO</a>
-          <a href="#about">SOBRE MI</a>
-          <a href="#projects">PROYECTOS</a>
-          <a href="#challenges">PEQUEÑOS DESAFIOS</a>
-          <a href="#contact">CONTACTO</a>
+
+        <section className={`navSection ${menuOpen ? "navActive" : ""}`}>
+          <a href="#home" onClick={() => setMenuOpen(false)}>
+            INICIO
+          </a>
+          <a href="#about" onClick={() => setMenuOpen(false)}>
+            SOBRE MI
+          </a>
+          <a href="#projects" onClick={() => setMenuOpen(false)}>
+            PROYECTOS
+          </a>
+          <a href="#challenges" onClick={() => setMenuOpen(false)}>
+            PEQUEÑOS DESAFIOS
+          </a>
+          <a href="#contact" onClick={() => setMenuOpen(false)}>
+            CONTACTO
+          </a>
         </section>
+
+        <HamburguerMenu toggleMenu={toggleMenu} menuOpen={menuOpen} />
       </nav>
       <div className="coverImage">
         <img src="../../../src/assets/images/homeImage.jpg" alt="Background" />
