@@ -39,7 +39,7 @@
 }
 
 .hamburger .checkbox:checked + svg .line {
-  stroke: var(--color-green);
+  stroke: var(--light-link-color);
 }
 
 .hamburger .checkbox + svg .line {
