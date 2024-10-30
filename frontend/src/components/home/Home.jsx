@@ -2,7 +2,7 @@ import BackToTop from "../backToTop/BackToTop";
 import "./home.css";
 import { useState } from "react";
 import HamburguerMenu from "../hamburguerMenu/HamburguerMenu";
-import RabbitIcon from "../../../src/assets/icons/rabbitIcon.svg";
+import RabbitIcon from "../../../public/rabbitIcon.svg";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
