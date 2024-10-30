@@ -15,7 +15,7 @@ export default function Home() {
       <nav>
         <section className="navSection">
           <img
-            src="../../../public/assets/rabbitIcon.svg"
+            src="../../assets/icons/rabbitIcon.svg"
             alt="Rabbit Icon"
           />
           <p>NOELIA REY</p>
