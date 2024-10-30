@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "./HamburguerMenu.css";
+import "./hamburguerMenu.css";
 
 export default function HamburguerMenu({ toggleMenu, menuOpen }) {
   return (
