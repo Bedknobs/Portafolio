@@ -2,7 +2,6 @@ import BackToTop from "../backToTop/BackToTop";
 import "./home.css";
 import { useState } from "react";
 import HamburguerMenu from "../hamburguerMenu/HamburguerMenu";
-import RabbitIcon from "../../../public/rabbitIcon.svg";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,7 +15,7 @@ export default function Home() {
       <nav>
         <section className="navSection">
           <img
-            src={RabbitIcon}
+            src="../../../public/assets/rabbitIcon.svg"
             alt="Rabbit Icon"
           />
           <p>NOELIA REY</p>
