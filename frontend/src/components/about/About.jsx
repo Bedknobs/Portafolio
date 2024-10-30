@@ -1,12 +1,13 @@
 import Skills from "./Skills";
 import "./about.css";
+import aboutImage from "/assets/images/aboutImage.jpg"
 
 export default function About() {
   return (
     <>
       <img
         className="aboutImage"
-        src="../../../src/assets/images/aboutImage.jpg"
+        src={aboutImage}
         alt="Background Photo About Me"
       />
       <div id="about">

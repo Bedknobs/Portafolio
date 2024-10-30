@@ -4,7 +4,7 @@ import "./projects.css";
 export default function Projects() {
   const projects = [
     {
-      img: "../../../src/assets/images/DoggieDiary_1.png",
+      img: "/assets/images/DoggieDiary_1.png",
       alt: "DoggieDiary",
       description:
         "DoggieDiary es una red social canina diseñada especialmente para los amantes de los perros. En esta plataforma, los usuarios pueden publicar posts, dar me gusta y comentar en las publicaciones de otros, así como seguir a otros usuarios y repostear contenido. Además, cada usuario tiene la opción de editar su perfil. Para acceder a la aplicación, es necesario registrarse, y todos los datos de registro se almacenan en una base de datos PostgreSQL.",
@@ -12,7 +12,7 @@ export default function Projects() {
       repoLink: "https://github.com/Bedknobs/rc2-final-project-Bedknobs",
     },
     {
-      img: "../../../src/assets/images/Filmin.png",
+      img: "/assets/images/Filmin.png",
       alt: "Filmin clone",
       description:
         "Filmin es un clon de la popular plataforma de streaming FILMIN. Utilizando datos almacenados en un archivo .json, he categorizado las películas según su género cinematográfico, ofreciendo a los usuarios una experiencia similar a la original. Este proyecto no solo pone a prueba mis habilidades de desarrollo, sino que también mejora la navegación y búsqueda de contenido.",
@@ -20,7 +20,7 @@ export default function Projects() {
       repoLink: "https://github.com/Bedknobs/rc2-project-4-Bedknobs",
     },
     {
-      img: "../../../src/assets/images/ACAF.png",
+      img: "/assets/images/ACAF.png",
       alt: "ACAF",
       description:
         "ACAF es una página web creada para una asociación del mismo nombre, desarrollada en colaboración con un equipo de seis personas. La página se divide en dos secciones: una dirigida al público general, donde se explica la misión de la asociación y quiénes la dirigen, y otra enfocada a la organización, donde los administradores pueden añadir, borrar o editar socios. Los datos de los socios se almacenan en una base de datos PostgreSQL, asegurando un manejo seguro y eficiente de la información.",
@@ -28,7 +28,7 @@ export default function Projects() {
       repoLink: "https://github.com/Bedknobs/ACAF",
     },
     {
-      img: "../../../src/assets/images/CRUD.png",
+      img: "/assets/images/CRUD.png",
       alt: "CRUDo App",
       description:
         "CRUDo es una aplicación que permite a los usuarios guardar, editar, borrar y leer entradas. Para facilitar la experiencia del usuario, ya incluye datos pre-cargados en un archivo data.sql, asegurando que la aplicación esté lista para usar desde el primer momento. También ofrece funciones de filtrado por backend y frontend, así como una barra de búsqueda para encontrar entradas específicas.",
@@ -36,7 +36,7 @@ export default function Projects() {
       repoLink: "https://github.com/Bedknobs/CRUD",
     },
     {
-      img: "../../../src/assets/images/Netflix.png",
+      img: "/assets/images/Netflix.png",
       alt: "Netflix clone",
       description:
         "Este proyecto es un clon de Netflix, desarrollado en colaboración con dos compañeros. Aquí, hemos categorizado las películas obtenidas de una API, y los usuarios pueden ver las calificaciones al pasar el ratón sobre cada título, lo que enriquece la experiencia del usuario. Este proyecto me ha permitido trabajar en equipo y mejorar mis habilidades de colaboración y desarrollo de frontend.",
@@ -44,7 +44,7 @@ export default function Projects() {
       repoLink: "https://github.com/Bedknobs/rc2-proyecto5-group-3",
     },
     {
-      img: "../../../src/assets/images/Trooking_1.png",
+      img: "/assets/images/Trooking_1.png",
       alt: "Trooking",
       description:
         "Trooking es una aplicación inspirada en Booking.com, donde los usuarios pueden reservar habitaciones de hotel y gestionar sus reservas en la sección Mis Reservas. La información sobre las habitaciones se guarda en un archivo data.sql en el backend, facilitando la gestión de datos de manera eficiente. Este proyecto resalta la importancia del trabajo en equipo y la gestión de bases de datos.",
@@ -81,7 +81,7 @@ export default function Projects() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="../../../src/assets/icons/Github-Light.svg"
+                  src="/assets/icons/Github-Light.svg"
                   alt="Github repository"
                 />
               </a>

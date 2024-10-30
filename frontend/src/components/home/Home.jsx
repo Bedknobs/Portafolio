@@ -2,7 +2,8 @@ import BackToTop from "../backToTop/BackToTop";
 import "./home.css";
 import { useState } from "react";
 import HamburguerMenu from "../hamburguerMenu/HamburguerMenu";
-import RabbitIcon from "/assets/rabbitIcon.svg";
+import RabbitIcon from "/assets/icons/rabbitIcon.svg";
+import homeImage from "/assets/images/homeImage.jpg";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -43,7 +44,7 @@ export default function Home() {
         <HamburguerMenu toggleMenu={toggleMenu} menuOpen={menuOpen} />
       </nav>
       <div className="coverImage">
-        <img src="../../../src/assets/images/homeImage.jpg" alt="Background" />
+        <img src={homeImage} alt="Background" />
       </div>
       <div className="welcomeText">
         <p className="welcomeTitle">Bienvenido a Mi Portafolio Web</p>
